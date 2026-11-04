@@ -43,29 +43,17 @@ ExplainLoop is an **Agent Skill** for Codex, Claude Code, and other compatible a
 
 ## See the range
 
-### Article relationship
+Every preview below is a **1600×900, 16:9 GIF at 30 fps**. Open a GIF to see it at full size, or open its scene to change the motion and layout. The collection deliberately uses different styles; a single request for multiple GIFs keeps one shared style unless you ask for a mix.
 
-Requests converge, work branches into separate contexts, and one reply returns. [Editable scene](assets/examples/showcase/21-one-coordinator.scene.mjs)
+| | |
+| --- | --- |
+| **Nocturne editorial** · requests converge and return as one reply<br><img src="demo/one-coordinator.gif" alt="Nocturne editorial: one coordinator, parallel work" width="390"><br>[GIF](demo/one-coordinator.gif) · [Scene](assets/examples/showcase/21-one-coordinator.scene.mjs) | **Playful illustrated** · an email becomes a calendar event<br><img src="demo/08-email-16x9.gif" alt="Playful illustrated: email to calendar" width="390"><br>[GIF](demo/08-email-16x9.gif) · [Scene](assets/examples/showcase/08-email-16x9.scene.mjs) |
+| **Editorial paper** · attention moves among active sessions<br><img src="demo/style-editorial-paper.gif" alt="Editorial paper: attention across sessions" width="390"><br>[GIF](demo/style-editorial-paper.gif) · [Scene](assets/examples/showcase/09-attention-editorial.scene.mjs) | **Swiss grid** · compare two ways to handle messages<br><img src="demo/style-swiss-grid.gif" alt="Swiss grid: two message workflows" width="390"><br>[GIF](demo/style-swiss-grid.gif) · [Scene](assets/examples/showcase/02-swiss-grid.scene.mjs) |
+| **Technical blueprint** · one router delegates to isolated workers<br><img src="demo/style-technical-blueprint.gif" alt="Technical blueprint: router and workers" width="390"><br>[GIF](demo/style-technical-blueprint.gif) · [Scene](assets/examples/showcase/10-router-atelier-16x9.scene.mjs) | **Data newsroom** · compare two reported token counts<br><img src="demo/style-data-newsroom.gif" alt="Data newsroom: reported token comparison" width="390"><br>[GIF](demo/style-data-newsroom.gif) · [Scene](assets/examples/showcase/15-data-16x9.scene.mjs) |
+| **Archival timeline** · three fictional releases in sequence<br><img src="demo/style-archival-timeline.gif" alt="Archival timeline: three fictional releases" width="390"><br>[GIF](demo/style-archival-timeline.gif) · [Scene](assets/examples/showcase/06-archival-timeline.scene.mjs) | **Museum gallery** · inspect a source before recording an outcome<br><img src="demo/style-museum-gallery.gif" alt="Museum gallery: source document and catalog note" width="390"><br>[GIF](demo/style-museum-gallery.gif) · [Scene](assets/examples/showcase/11-museum-gallery.scene.mjs) |
+| **Chromatic poster** · paths gather into one result<br><img src="demo/background-ribbon-field-motion.gif" alt="Chromatic poster: paths converge" width="390"><br>[GIF](demo/background-ribbon-field-motion.gif) · [Scene](assets/examples/backgrounds/ribbon-field-motion.scene.mjs) | |
 
-![Requests converge and return as one reply](demo/one-coordinator.gif)
-
-### UI workflow · two aspect ratios
-
-An email's meeting time becomes a calendar event. The portrait version has its own composition. [Landscape scene](assets/examples/showcase/08-email-16x9.scene.mjs) · [Portrait scene](assets/examples/showcase/08-email-9x16.scene.mjs)
-
-<p><img src="demo/08-email-16x9.gif" alt="Email to calendar workflow in 16:9" width="520"> <img src="demo/08-email-9x16.gif" alt="Email to calendar workflow in 9:16" width="220"></p>
-
-### Visual flow
-
-Several paths gather into one result. [Editable scene](assets/examples/backgrounds/ribbon-field-motion.scene.mjs)
-
-![Animated paths gather into one result](demo/background-ribbon-field-motion.gif)
-
-### Background treatments
-
-![Six background treatments shown side by side](demo/backgrounds-new.png)
-
-The Skill includes **9 style presets, 10 background treatments, and 30 semantic components** for people, messages, documents, tasks, timelines, charts, and UI states. [Browse the background guide](references/backgrounds.md). A batch keeps one visual language even when scenes use different layouts.
+The Skill includes **9 style presets, 10 background treatments, and 30 semantic components** for people, messages, documents, tasks, timelines, charts, and UI states. [Browse the background guide](references/backgrounds.md) or [see six background treatments](demo/backgrounds-new.png). A batch keeps one visual language even when scenes use different layouts.
 
 The default is **1600×900, 30 fps, 4–7 seconds**. Built-in layouts also cover 4:3, square, and 9:16; custom output sizes with a matching scene ratio are supported. Portrait scenes are recomposed rather than cropped from landscape.
 
