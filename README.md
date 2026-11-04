@@ -16,7 +16,17 @@ This example is a **fictional proposed workflow**. It makes no claim about a dep
 
 ## Try it
 
-Install for Codex with the [Skills CLI](https://github.com/vercel-labs/skills):
+In Codex, Claude Code, or another agent that can install local Skills, paste this into the chat:
+
+```text
+Install this Agent Skill for me: https://github.com/GraySilver/explainloop
+Use your current agent's Skills directory. Check that its root SKILL.md is
+recognized, then tell me how to use it and which rendering tools are missing.
+```
+
+The agent needs access to GitHub and its local Skills directory. If the new Skill does not appear immediately, start a new agent session.
+
+Prefer a terminal? Install for Codex with the [Skills CLI](https://github.com/vercel-labs/skills):
 
 ```bash
 npx skills add GraySilver/explainloop --skill explainloop -g -a codex -y
@@ -24,7 +34,7 @@ npx skills add GraySilver/explainloop --skill explainloop -g -a codex -y
 
 For Claude Code, use `-a claude-code` instead. The Skills CLI requires Node.js 22.20+. [Manual installation](#manual-installation) is available below.
 
-Then give your agent a request it can act on:
+After installation, give your agent a request it can act on:
 
 ```text
 Use ExplainLoop with demo/sample-routing-article.md. Make one 16:9 GIF that

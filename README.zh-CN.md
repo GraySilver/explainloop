@@ -16,7 +16,17 @@
 
 ## 立即试用
 
-使用 [Skills CLI](https://github.com/vercel-labs/skills) 安装到 Codex：
+在 Codex、Claude Code 等支持安装本地 Skill 的 Agent 中，直接发送：
+
+```text
+帮我安装这个 Agent Skill：https://github.com/GraySilver/explainloop
+请安装到你当前使用的 Skills 目录，确认仓库根目录的 SKILL.md 能被识别，
+然后告诉我怎么使用，以及还缺少哪些 GIF 渲染工具。
+```
+
+Agent 需要能访问 GitHub 和本地 Skills 目录。如果安装后没有立即出现新 Skill，请开启新的 Agent 会话。
+
+习惯用命令行？使用 [Skills CLI](https://github.com/vercel-labs/skills) 安装到 Codex：
 
 ```bash
 npx skills add GraySilver/explainloop --skill explainloop -g -a codex -y
@@ -24,7 +34,7 @@ npx skills add GraySilver/explainloop --skill explainloop -g -a codex -y
 
 Claude Code 将 `-a codex` 改为 `-a claude-code`。Skills CLI 需要 Node.js 22.20+；下方也有[手动安装方法](#手动安装与运行环境)。
 
-然后向 Agent 发送：
+安装完成后，向 Agent 发送：
 
 ```text
 使用 ExplainLoop 处理 demo/sample-routing-article.md。生成一张 16:9 的 GIF，
