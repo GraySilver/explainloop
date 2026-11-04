@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  skill-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install render dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y librsvg2-bin ffmpeg fonts-noto-cjk
+      - name: Test Skill and renderer
+        run: node scripts/test.mjs
+      - name: Check bundled icon notices
+        run: |
+          test -s assets/icons/LICENSE
+          test -s assets/icons/PROVENANCE.md
