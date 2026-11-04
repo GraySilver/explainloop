@@ -53,7 +53,7 @@ ExplainLoop is an **Agent Skill** for Codex, Claude Code, and other compatible a
 
 ## See the range
 
-Every preview below is a **1600×900, 16:9 GIF at 30 fps**. Open a GIF to see it at full size, or open its scene to change the motion and layout. The collection deliberately uses different styles; a single request for multiple GIFs keeps one shared style unless you ask for a mix.
+The nine GIFs in this style gallery are **1600×900, 16:9 at 30 fps**. Open a GIF to see it at full size, or open its scene to change the motion and layout. The collection deliberately uses different styles; a single request for multiple GIFs keeps one shared style unless you ask for a mix.
 
 | | |
 | --- | --- |
@@ -63,7 +63,37 @@ Every preview below is a **1600×900, 16:9 GIF at 30 fps**. Open a GIF to see it
 | **Archival timeline** · three fictional releases in sequence<br><img src="demo/style-archival-timeline.gif" alt="Archival timeline: three fictional releases" width="390"><br>[GIF](demo/style-archival-timeline.gif) · [Scene](assets/examples/showcase/06-archival-timeline.scene.mjs) | **Museum gallery** · inspect a source before recording an outcome<br><img src="demo/style-museum-gallery.gif" alt="Museum gallery: source document and catalog note" width="390"><br>[GIF](demo/style-museum-gallery.gif) · [Scene](assets/examples/showcase/11-museum-gallery.scene.mjs) |
 | **Chromatic poster** · paths gather into one result<br><img src="demo/background-ribbon-field-motion.gif" alt="Chromatic poster: paths converge" width="390"><br>[GIF](demo/background-ribbon-field-motion.gif) · [Scene](assets/examples/backgrounds/ribbon-field-motion.scene.mjs) | |
 
-The Skill includes **9 style presets, 10 background treatments, and 30 semantic components** for people, messages, documents, tasks, timelines, charts, and UI states. [Browse the background guide](references/backgrounds.md) or [see six background treatments](demo/backgrounds-new.png). A batch keeps one visual language even when scenes use different layouts.
+The Skill includes **9 style presets, 10 background treatments, and 30 semantic components** for people, messages, documents, tasks, timelines, charts, and UI states. A batch keeps one visual language even when scenes use different layouts.
+
+### Style and component boards
+
+![Nine visual styles side by side](assets/previews/styles.png)
+
+![Thirty semantic components for people, messages, documents, tasks, and charts](assets/previews/components.png)
+
+### Background treatments
+
+The overview sheets show all ten treatments and a closer view of six. The individual 16:9 previews below link to editable scenes. [How to choose a background](references/backgrounds.md)
+
+![All ten background treatments](assets/previews/backgrounds.png)
+
+![Six background treatments at a larger size](demo/backgrounds-new.png)
+
+| | |
+| --- | --- |
+| **Soft wash**<br><img src="assets/previews/background-soft-wash.png" alt="Soft wash background" width="390"><br>[Scene](assets/examples/backgrounds/soft-wash.scene.mjs) | **Edge glow**<br><img src="assets/previews/background-edge-glow.png" alt="Edge glow background" width="390"><br>[Scene](assets/examples/backgrounds/edge-glow.scene.mjs) |
+| **Layered matte**<br><img src="assets/previews/background-layered-matte.png" alt="Layered matte background" width="390"><br>[Scene](assets/examples/backgrounds/layered-matte.scene.mjs) | **Quiet motif**<br><img src="assets/previews/background-quiet-motif.png" alt="Quiet motif background" width="390"><br>[Scene](assets/examples/backgrounds/quiet-motif.scene.mjs) |
+| **Focus halo**<br><img src="assets/previews/background-focus-halo.png" alt="Focus halo background" width="390"><br>[Scene](assets/examples/backgrounds/focus-halo.scene.mjs) | **Clipped grid**<br><img src="assets/previews/background-clipped-grid.png" alt="Clipped grid background" width="390"><br>[Scene](assets/examples/backgrounds/clipped-grid.scene.mjs) |
+| **Ribbon field**<br><img src="assets/previews/background-ribbon-field.png" alt="Ribbon field background" width="390"><br>[Scene](assets/examples/backgrounds/ribbon-field.scene.mjs) | **Contour lines**<br><img src="assets/previews/background-contour-lines.png" alt="Contour lines background" width="390"><br>[Scene](assets/examples/backgrounds/contour-lines.scene.mjs) |
+| **Halftone margin**<br><img src="assets/previews/background-halftone-margin.png" alt="Halftone margin background" width="390"><br>[Scene](assets/examples/backgrounds/halftone-margin.scene.mjs) | **Editorial band**<br><img src="assets/previews/background-editorial-band.png" alt="Editorial band background" width="390"><br>[Scene](assets/examples/backgrounds/editorial-band.scene.mjs) |
+
+### Portrait examples
+
+The style gallery above stays 16:9. These separate 9:16 previews show how a scene and two backgrounds recompose for a narrow canvas.
+
+| Email workflow | Soft wash | Focus halo |
+| --- | --- | --- |
+| <img src="demo/08-email-9x16.gif" alt="Email to calendar animation in 9:16" width="220"><br>[GIF](demo/08-email-9x16.gif) · [Scene](assets/examples/showcase/08-email-9x16.scene.mjs) | <img src="assets/previews/background-soft-wash-9x16.png" alt="Soft wash in 9:16" width="220"><br>[Scene](assets/examples/backgrounds/soft-wash-9x16.scene.mjs) | <img src="assets/previews/background-focus-halo-9x16.png" alt="Focus halo in 9:16" width="220"><br>[Scene](assets/examples/backgrounds/focus-halo-9x16.scene.mjs) |
 
 The default is **1600×900, 30 fps, 4–7 seconds**. Built-in layouts also cover 4:3, square, and 9:16; custom output sizes with a matching scene ratio are supported. Portrait scenes are recomposed rather than cropped from landscape.
 

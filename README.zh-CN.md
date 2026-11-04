@@ -53,7 +53,7 @@ ExplainLoop 是面向 Codex、Claude Code 等 Agent 的 **Skill**。渲染 CLI �
 
 ## 示例与规格
 
-下面全部是 **1600×900、16:9、30 fps** 的 GIF。点击原图可看完整尺寸，点击场景可修改布局和动画。这组展示刻意使用不同风格；同一次请求生成多张 GIF 时，默认仍会统一风格，除非你指定混合风格。
+这组九张风格 GIF 均为 **1600×900、16:9、30 fps**。点击原图可看完整尺寸，点击场景可修改布局和动画。这组展示刻意使用不同风格；同一次请求生成多张 GIF 时，默认仍会统一风格，除非你指定混合风格。
 
 | | |
 | --- | --- |
@@ -63,7 +63,37 @@ ExplainLoop 是面向 Codex、Claude Code 等 Agent 的 **Skill**。渲染 CLI �
 | **档案时间轴风** · 三个虚构版本依次出现<br><img src="demo/style-archival-timeline.gif" alt="档案时间轴风：三个虚构版本" width="390"><br>[原图](demo/style-archival-timeline.gif) · [场景](assets/examples/showcase/06-archival-timeline.scene.mjs) | **博物馆陈列风** · 先查原始材料再记结论<br><img src="demo/style-museum-gallery.gif" alt="博物馆陈列风：原始材料与处理记录" width="390"><br>[原图](demo/style-museum-gallery.gif) · [场景](assets/examples/showcase/11-museum-gallery.scene.mjs) |
 | **高对比海报风** · 多条路径汇成一个结果<br><img src="demo/background-ribbon-field-motion.gif" alt="高对比海报风：路径汇聚" width="390"><br>[原图](demo/background-ribbon-field-motion.gif) · [场景](assets/examples/backgrounds/ribbon-field-motion.scene.mjs) | |
 
-内含 **9 套风格、10 种背景构图和 30 个语义组件**；背景的适用与避用条件见[背景指南](references/backgrounds.md)，也可查看[六种背景预览](demo/backgrounds-new.png)。同一批次统一视觉语言，不同比例重新构图。
+内含 **9 套风格、10 种背景构图和 30 个语义组件**。同一批次统一视觉语言，不同比例重新构图。
+
+### 风格与组件总览
+
+![九套视觉风格总览](assets/previews/styles.png)
+
+![人物、消息、文档、任务和图表等三十个语义组件](assets/previews/components.png)
+
+### 背景构图
+
+总览图展示全部十种背景和其中六种的放大预览。下方每张 16:9 背景图都附有可编辑场景。[背景选择指南](references/backgrounds.md)
+
+![十种背景构图总览](assets/previews/backgrounds.png)
+
+![六种背景构图放大预览](demo/backgrounds-new.png)
+
+| | |
+| --- | --- |
+| **柔和光晕**<br><img src="assets/previews/background-soft-wash.png" alt="柔和光晕背景" width="390"><br>[场景](assets/examples/backgrounds/soft-wash.scene.mjs) | **边缘聚光**<br><img src="assets/previews/background-edge-glow.png" alt="边缘聚光背景" width="390"><br>[场景](assets/examples/backgrounds/edge-glow.scene.mjs) |
+| **层叠哑光**<br><img src="assets/previews/background-layered-matte.png" alt="层叠哑光背景" width="390"><br>[场景](assets/examples/backgrounds/layered-matte.scene.mjs) | **局部纹样**<br><img src="assets/previews/background-quiet-motif.png" alt="局部纹样背景" width="390"><br>[场景](assets/examples/backgrounds/quiet-motif.scene.mjs) |
+| **焦点光环**<br><img src="assets/previews/background-focus-halo.png" alt="焦点光环背景" width="390"><br>[场景](assets/examples/backgrounds/focus-halo.scene.mjs) | **裁切网格**<br><img src="assets/previews/background-clipped-grid.png" alt="裁切网格背景" width="390"><br>[场景](assets/examples/backgrounds/clipped-grid.scene.mjs) |
+| **流动线束**<br><img src="assets/previews/background-ribbon-field.png" alt="流动线束背景" width="390"><br>[场景](assets/examples/backgrounds/ribbon-field.scene.mjs) | **等高曲线**<br><img src="assets/previews/background-contour-lines.png" alt="等高曲线背景" width="390"><br>[场景](assets/examples/backgrounds/contour-lines.scene.mjs) |
+| **半调边栏**<br><img src="assets/previews/background-halftone-margin.png" alt="半调边栏背景" width="390"><br>[场景](assets/examples/backgrounds/halftone-margin.scene.mjs) | **编辑色带**<br><img src="assets/previews/background-editorial-band.png" alt="编辑色带背景" width="390"><br>[场景](assets/examples/backgrounds/editorial-band.scene.mjs) |
+
+### 竖屏示例
+
+上方风格画廊保留 16:9；这里单独展示 9:16 的场景与背景如何重新构图。
+
+| 邮件变日程 | 柔和光晕 | 焦点光环 |
+| --- | --- | --- |
+| <img src="demo/08-email-9x16.gif" alt="9:16 邮件变日程动画" width="220"><br>[原图](demo/08-email-9x16.gif) · [场景](assets/examples/showcase/08-email-9x16.scene.mjs) | <img src="assets/previews/background-soft-wash-9x16.png" alt="9:16 柔和光晕背景" width="220"><br>[场景](assets/examples/backgrounds/soft-wash-9x16.scene.mjs) | <img src="assets/previews/background-focus-halo-9x16.png" alt="9:16 焦点光环背景" width="220"><br>[场景](assets/examples/backgrounds/focus-halo-9x16.scene.mjs) |
 
 默认输出为 **1600×900、30 fps、4–7 秒**；也支持 4:3、方图、9:16 和与场景比例一致的自定义尺寸。
 
