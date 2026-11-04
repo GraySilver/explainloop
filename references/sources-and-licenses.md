@@ -2,6 +2,21 @@
 
 Research sources inform original style recipes and component behavior; they are not templates to trace or rebrand.
 
+## Design history cited in the README
+
+These sources document the ideas named in the README's design-lineage section. The mapping from those ideas to ExplainLoop presets is our interpretation. No artwork, layout, or font from these designers is bundled.
+
+- [Poster House, *The Swiss Grid*](https://swissgrid.posterhouse.org/): Josef Müller-Brockmann and flexible grid systems.
+- [MoMA, *The New Typography*](https://www.moma.org/calendar/exhibitions/1013): Jan Tschichold, asymmetry, and typographic hierarchy.
+- [Lars Müller Publishers, *The Vignelli Canon*](https://www.lars-mueller-publishers.com/vignelli-canon): Massimo Vignelli on semantics, coherence, grids, type, and color.
+- [Edward Tufte, *The Visual Display of Quantitative Information*](https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/): quantitative comparison and graphical integrity.
+- [Cooper Hewitt, *Picturing Language*](https://www.cooperhewitt.org/2013/08/06/picturing-language/): Otto Neurath, Gerd Arntz, and Isotype.
+- [Pentagram, *Type Is Image*](https://www.pentagram.com/news/paula-scher-type-is-image-opens-at-die-neue-sammlung): Paula Scher's expressive typography.
+- [AIGA Eye on Design, *Saul Bass, the Filmmaker’s Graphic Designer*](https://eyeondesign.aiga.org/design-history-101/): short visual sequences and distilled concepts.
+- [Vitsœ, *The power of good design*](https://www.vitsoe.com/us/about/good-design): Dieter Rams's principles of useful, restrained design.
+
+## Contemporary design guidance
+
 - [Carbon Motion](https://www.carbondesignsystem.com/building-blocks/foundations/motion/overview): productive and expressive motion, easing, focus.
 - [Carbon Typography](https://www.carbondesignsystem.com/building-blocks/foundations/typography/overview): type scale and hierarchy for reading context.
 - [Carbon Spacing](https://www.carbondesignsystem.com/building-blocks/foundations/spacing/overview): consistent spacing rhythm within and between components.

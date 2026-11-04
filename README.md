@@ -14,6 +14,8 @@
 
 This example is a **fictional proposed workflow**. It makes no claim about a deployed product or measured improvement.
 
+**Design lineage:** Müller-Brockmann's grids, Tschichold's typography, Vignelli's systems, Tufte's information graphics, and Bass's visual storytelling. [See how the ideas shape ExplainLoop](#design-lineage).
+
 ## Try it
 
 In Codex, Claude Code, or another agent that can install local Skills, paste this into the chat:
@@ -50,6 +52,23 @@ For your own article, replace the sample path with a local Markdown file, pasted
 3. **Render and check.** The deterministic SVG renderer exports a silent GIF. Preview and inspection tools help check reading size, timing, batch style, and output metadata.
 
 ExplainLoop is an **Agent Skill** for Codex, Claude Code, and other compatible agents. Its renderer accepts a finished scene; the CLI does **not** interpret article prose or fetch URLs by itself. URL access depends on the agent's browsing tools. If a page cannot be read, provide its text.
+
+## Design lineage
+
+An explanatory GIF has very little time to earn attention. ExplainLoop uses type to establish the claim, composition to show the relationship, and motion to reveal the change. The design references below are public, documented approaches that help us make those decisions for original scenes.
+
+| Designer and reference | Idea we study | How it appears in ExplainLoop |
+| --- | --- | --- |
+| [Josef Müller-Brockmann · *The Swiss Grid*](https://swissgrid.posterhouse.org/) | A flexible grid gives unrelated elements a clear visual relationship. | The `swiss-grid` preset aligns comparisons and labels so the reader can scan two paths at a glance. |
+| [Jan Tschichold · *The New Typography*](https://www.moma.org/calendar/exhibitions/1013) | Asymmetry, type scale, and open space can guide reading before decoration does. | `editorial-paper` and `chromatic-poster` use decisive type hierarchy and deliberately uneven compositions. |
+| [Massimo Vignelli · *The Vignelli Canon*](https://www.lars-mueller-publishers.com/vignelli-canon) | Semantics, coherence, grids, type, and color belong to one disciplined system. | A multi-GIF batch shares its typography, palette, spacing, and motion character even when each scene has a different layout. |
+| [Edward Tufte · *The Visual Display of Quantitative Information*](https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/) | Graphics should make comparisons precise and avoid visual distortion. | `data-newsroom` keeps units and direct labels near the marks, starts comparison bars at zero, and preserves source qualifiers. |
+| [Otto Neurath and Gerd Arntz · Isotype](https://www.cooperhewitt.org/2013/08/06/picturing-language/) | A consistent picture language can make complex information easier to read. | Semantic people, message, document, task, and timeline components give each object a recognizable role. The bundled icon artwork is credited separately to Lucide. |
+| [Paula Scher · *Type Is Image*](https://www.pentagram.com/news/paula-scher-type-is-image-opens-at-die-neue-sammlung) | Type can carry the emotion and identity of a composition. | Large words become the focal object in `chromatic-poster`; scale and color serve the article's point. |
+| [Saul Bass · film titles and posters](https://eyeondesign.aiga.org/design-history-101/) | A short visual sequence can condense a larger idea into one memorable image. | Each loop is planned around one visible transformation and a readable final frame. |
+| [Dieter Rams · principles for good design](https://www.vitsoe.com/us/about/good-design) | Useful detail earns its place; unnecessary detail makes the message harder to see. | Background texture, UI chrome, and motion are reduced whenever they compete with the article's claim. |
+
+These are references for design principles, with our adaptation described in the last column. **All shipped scenes and layouts are original; no designer or institution listed here endorses or collaborates on ExplainLoop.** Their artwork and fonts are not bundled. [See the full source and license notes](references/sources-and-licenses.md).
 
 ## See the range
 

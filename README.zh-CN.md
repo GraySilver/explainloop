@@ -14,6 +14,8 @@
 
 这是**虚构的提案流程**，不代表已经上线的产品或经过测量的效率提升。
 
+**设计脉络：**穆勒-布罗克曼的网格、奇肖尔德的排版、维涅里的系统设计、塔夫特的信息图，以及索尔·巴斯的视觉叙事。[看看这些方法如何进入 ExplainLoop](#设计脉络)。
+
 ## 立即试用
 
 在 Codex、Claude Code 等支持安装本地 Skill 的 Agent 中，直接发送：
@@ -50,6 +52,23 @@ Claude Code 将 `-a codex` 改为 `-a claude-code`。Skills CLI 需要 Node.js 2
 3. **渲染并检查。** SVG 渲染器导出无声 GIF；预览和检查脚本核对画面、节奏、批次一致性与输出规格。
 
 ExplainLoop 是面向 Codex、Claude Code 等 Agent 的 **Skill**。渲染 CLI 接收已经写好的场景，**不会独立理解文章或抓取 URL**；网页能否读取取决于 Agent 的浏览能力，访问失败时需要提供正文。
+
+## 设计脉络
+
+一张解释型 GIF 只有几秒钟争取注意力。ExplainLoop 用字体建立主张、构图呈现关系、动画揭示变化。下列公开资料提供了设计方法；我们把方法转化为适合文章解读的原创场景。
+
+| 设计师与资料 | 借鉴的方法 | 在 ExplainLoop 中的体现 |
+| --- | --- | --- |
+| [约瑟夫·穆勒-布罗克曼 · 瑞士网格](https://swissgrid.posterhouse.org/) | 灵活的网格让不同信息形成清楚的视觉关系。 | `swiss-grid` 用对齐的对照区域和标签，让读者一眼看懂两条路径。 |
+| [扬·奇肖尔德 · 新字体设计](https://www.moma.org/calendar/exhibitions/1013) | 不对称排版、字号层级与留白先引导阅读。 | `editorial-paper` 和 `chromatic-poster` 让标题、重点与空白形成明确的阅读顺序。 |
+| [马西莫·维涅里 ·《维涅里法典》](https://www.lars-mueller-publishers.com/vignelli-canon) | 语义、统一性、网格、字体和色彩组成一个有纪律的系统。 | 同一批 GIF 共用字体、配色、间距和动效节奏，每个主题仍有自己的构图。 |
+| [爱德华·塔夫特 ·《定量信息的视觉显示》](https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/) | 图表应支持准确比较，避免视觉失真。 | `data-newsroom` 把单位和标签放在数据旁，对照条形从零开始，并保留原文限定。 |
+| [奥托·诺伊拉特与格尔德·阿恩茨 · Isotype](https://www.cooperhewitt.org/2013/08/06/picturing-language/) | 一致的图像语言有助于理解复杂信息。 | 人物、消息、文档、任务、时间轴等语义组件各有清楚角色；内置图标素材另行注明来自 Lucide。 |
+| [宝拉·谢尔 · *Type Is Image*](https://www.pentagram.com/news/paula-scher-type-is-image-opens-at-die-neue-sammlung) | 字体本身可以承担画面的情绪和识别性。 | `chromatic-poster` 让大字成为视觉主体，用字号和颜色突出文章观点。 |
+| [索尔·巴斯 · 电影片头与海报](https://eyeondesign.aiga.org/design-history-101/) | 短暂的视觉序列也能浓缩一个较大的想法。 | 每段循环围绕一个可见的变化编排，并留下能独立读懂的结果画面。 |
+| [迪特·拉姆斯 · 好设计原则](https://www.vitsoe.com/us/about/good-design) | 有用的细节应留下；无关的细节会遮挡信息。 | 当背景纹理、界面装饰或动效抢走文章主张的注意力时，就删减它们。 |
+
+上表中的设计史资料用于说明方法，最后一列是 ExplainLoop 的具体转化。**项目中的场景和布局均为原创；上述设计师或机构与 ExplainLoop 没有合作或背书关系。**项目也未打包他们的作品或字体。[查看完整来源与许可证说明](references/sources-and-licenses.md)。
 
 ## 示例与规格
 
