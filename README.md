@@ -43,11 +43,25 @@ ExplainLoop is an **Agent Skill** for Codex, Claude Code, and other compatible a
 
 ## See the range
 
-| Example | What changes | Output | Editable source |
-| --- | --- | --- | --- |
-| Article relationship | Sources converge, work branches, one reply returns | [16:9 GIF](demo/one-coordinator.gif) | [Scene](assets/examples/showcase/21-one-coordinator.scene.mjs) |
-| UI workflow | An email's meeting time becomes a calendar event | [16:9 GIF](demo/08-email-16x9.gif) · [9:16 GIF](demo/08-email-9x16.gif) | [Landscape](assets/examples/showcase/08-email-16x9.scene.mjs) · [Portrait](assets/examples/showcase/08-email-9x16.scene.mjs) |
-| Visual flow | Several paths gather into one result | [16:9 GIF](demo/background-ribbon-field-motion.gif) | [Scene](assets/examples/backgrounds/ribbon-field-motion.scene.mjs) |
+### Article relationship
+
+Requests converge, work branches into separate contexts, and one reply returns. [Editable scene](assets/examples/showcase/21-one-coordinator.scene.mjs)
+
+![Requests converge and return as one reply](demo/one-coordinator.gif)
+
+### UI workflow · two aspect ratios
+
+An email's meeting time becomes a calendar event. The portrait version has its own composition. [Landscape scene](assets/examples/showcase/08-email-16x9.scene.mjs) · [Portrait scene](assets/examples/showcase/08-email-9x16.scene.mjs)
+
+<p><img src="demo/08-email-16x9.gif" alt="Email to calendar workflow in 16:9" width="520"> <img src="demo/08-email-9x16.gif" alt="Email to calendar workflow in 9:16" width="220"></p>
+
+### Visual flow
+
+Several paths gather into one result. [Editable scene](assets/examples/backgrounds/ribbon-field-motion.scene.mjs)
+
+![Animated paths gather into one result](demo/background-ribbon-field-motion.gif)
+
+### Background treatments
 
 ![Six background treatments shown side by side](demo/backgrounds-new.png)
 

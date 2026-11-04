@@ -43,11 +43,25 @@ ExplainLoop 是面向 Codex、Claude Code 等 Agent 的 **Skill**。渲染 CLI �
 
 ## 示例与规格
 
-| 内容 | 动画 | 源码 |
-| --- | --- | --- |
-| 原创文章：协调者分工与统一回复 | [16:9 GIF](demo/one-coordinator.gif) | [场景](assets/examples/showcase/21-one-coordinator.scene.mjs) |
-| 邮件变日程：同一流程重新排版 | [横屏 GIF](demo/08-email-16x9.gif) · [竖屏 GIF](demo/08-email-9x16.gif) | [横屏](assets/examples/showcase/08-email-16x9.scene.mjs) · [竖屏](assets/examples/showcase/08-email-9x16.scene.mjs) |
-| 路径汇聚的视觉动效 | [16:9 GIF](demo/background-ribbon-field-motion.gif) | [场景](assets/examples/backgrounds/ribbon-field-motion.scene.mjs) |
+### 文章关系：分工与统一回复
+
+多渠道请求汇合，任务进入不同角色，最后从同一入口回复。[编辑场景](assets/examples/showcase/21-one-coordinator.scene.mjs)
+
+![多渠道请求汇合并由同一入口回复](demo/one-coordinator.gif)
+
+### 邮件变日程：横竖屏重新构图
+
+邮件里的会议时间成为日历事件。竖屏有独立编排。[横屏场景](assets/examples/showcase/08-email-16x9.scene.mjs) · [竖屏场景](assets/examples/showcase/08-email-9x16.scene.mjs)
+
+<p><img src="demo/08-email-16x9.gif" alt="横屏邮件变日程动画" width="520"> <img src="demo/08-email-9x16.gif" alt="竖屏邮件变日程动画" width="220"></p>
+
+### 路径汇聚的视觉动效
+
+几条路径汇入同一个结果。[编辑场景](assets/examples/backgrounds/ribbon-field-motion.scene.mjs)
+
+![几条路径汇入同一个结果](demo/background-ribbon-field-motion.gif)
+
+### 背景构图
 
 ![六款背景构图预览](demo/backgrounds-new.png)
 
